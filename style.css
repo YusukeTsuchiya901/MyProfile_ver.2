@@ -99,7 +99,7 @@ p {
   }
   .aboutText {
     width: fit-content;
-    margin: 0 20px;
+    margin: 0 auto;
   }
   .name {
     font-size: 24px;
