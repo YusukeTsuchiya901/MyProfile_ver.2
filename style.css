@@ -43,6 +43,14 @@ p {
   text-align: center;
   margin: 0;
 }
+.item {
+  font-size: 18px;
+}
+.copyright {
+  text-align: center;
+  margin: 50px auto;
+}
+
 @media screen and (min-width: 768px) {
   .aboutContainer {
     display: flex;
@@ -64,9 +72,6 @@ p {
     margin-top: 50px;
     padding-left: 30px;
   }
-  .item {
-    font-size: 18px;
-  }
   .worksContainer {
     display: flex;
     justify-content: center;
@@ -79,10 +84,6 @@ p {
   }
   .worksImg {
     width: 100%;
-  }
-  .copyright {
-    text-align: center;
-    margin: 50px auto;
   }
 }
 
@@ -100,13 +101,10 @@ p {
   .aboutText {
     width: fit-content;
     margin: 0 auto;
+    padding: 0 20px;
   }
   .name {
     font-size: 24px;
-
-  }
-  .item {
-    font-size: 18px;
   }
   .worksContent {
     margin: 30px;
@@ -115,9 +113,5 @@ p {
   .worksImg {
     width: 100%;
     max-width: 375px;
-  }
-  .copyright {
-    text-align: center;
-    margin: 50px auto;
   }
 }
