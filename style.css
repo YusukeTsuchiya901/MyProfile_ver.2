@@ -1,0 +1,123 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 34px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.headerDiv a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+.headerLogo {
+  border: 1px solid #000000;
+  padding: 3px 20px;
+  margin: 0 30px;
+}
+.headerNav {
+  margin: 20px;
+}
+
+.mainImg {
+  width: 100%;
+}
+#secAbout {
+  margin-top: 80px;
+}
+
+.secTitle {
+  font-size: 34px;
+  text-align: center;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .aboutContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 90px auto;
+  }
+  .aboutImg {
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 4px solid #777777;
+    padding: 3px;
+  }
+  .name {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .aboutText {
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+  .item {
+    font-size: 18px;
+  }
+  .worksContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  .worksContent {
+    flex-basis: 25%;
+    margin: 10px;
+  }
+  .worksImg {
+    width: 100%;
+  }
+  .copyright {
+    text-align: center;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutContainer {
+    margin: 90px auto;
+  }
+  .aboutImg {
+    border-radius: 50%;
+    border: 4px solid #777777;
+    padding: 3px;
+    display: block;
+    margin: 0 auto;
+  }
+  .aboutText {
+    width: fit-content;
+    margin: 0 20px;
+  }
+  .name {
+    font-size: 24px;
+
+  }
+  .item {
+    font-size: 18px;
+  }
+  .worksContent {
+    margin: 30px;
+    text-align: center;
+  }
+  .worksImg {
+    width: 100%;
+    max-width: 375px;
+  }
+  .copyright {
+    text-align: center;
+    margin: 50px auto;
+  }
+}
